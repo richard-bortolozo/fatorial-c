@@ -19,4 +19,3 @@ steps:
 
   - name: execute
     run: ./test_fatorial
-```
