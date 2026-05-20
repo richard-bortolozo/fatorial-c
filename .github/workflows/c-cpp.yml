@@ -14,8 +14,10 @@ runs-on: ubuntu-latest
 
 steps:
 - uses: actions/checkout@v4
+
 - name: compile
   run: gcc test_fatorial.c function_fatorial.c -o test_fatorial
+
 - name: execute
   run: ./test_fatorial
 ```
